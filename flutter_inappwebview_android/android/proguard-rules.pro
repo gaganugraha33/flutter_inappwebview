@@ -15,4 +15,5 @@
      private *;
 }
 -keep class com.pichillilorenzo.flutter_inappwebview_android.** { *; }
+-ignorewarnings
 -dontwarn android.window.BackEvent
