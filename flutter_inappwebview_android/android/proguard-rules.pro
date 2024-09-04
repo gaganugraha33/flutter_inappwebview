@@ -1,6 +1,5 @@
 
 -dontwarn android.window.BackEvent
--dontwarn android.**
 
 # WebView
 -keepattributes *JavascriptInterface*
