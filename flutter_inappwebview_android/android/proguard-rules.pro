@@ -1,3 +1,6 @@
+
+-dontwarn android.window.BackEvent
+-dontwarn android.**
 # WebView
 -keepattributes *JavascriptInterface*
 -keepclassmembers class * {
@@ -16,4 +19,3 @@
 }
 -keep class com.pichillilorenzo.flutter_inappwebview_android.** { *; }
 -ignorewarnings
--dontwarn android.window.BackEvent
